@@ -1,5 +1,6 @@
 name: Daily DevSync Update
-
+permissions:
+  contents: write
 on:
   schedule:
     - cron: '15 3 * * *'   # Runs daily at 3:15 AM UTC
